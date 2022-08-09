@@ -1,5 +1,5 @@
 {
-  "name": "@burstware/expo-plaid-link",
+  "name": "@seis/expo-plaid-link",
   "version": "1.0.6",
   "description": "Use the Plaid Link flow inside your expo app",
   "main": "Index.jsx",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burstware/expo-plaid-link.git"
+    "url": "git+https://github.com/seis/expo-plaid-link.git"
   },
   "keywords": [
     "expo",
@@ -20,14 +20,14 @@
   "bugs": {
     "url": "https://github.com/burstware/expo-plaid-link/issues"
   },
-  "homepage": "https://github.com/burstware/expo-plaid-link#readme",
+  "homepage": "https://github.com/seis/expo-plaid-link#readme",
   "dependencies": {
     "query-string": "^7.0.1"
   },
   "peerDependencies": {
-    "react": "16.x",
-    "expo": "43.x",
-    "react-native": "0.64.x",
-    "react-native-webview": "11.x"
+    "react": "*",
+    "expo": ">=43.x",
+    "react-native": ">=0.64.x",
+    "react-native-webview": ">=11.x"
   }
 }
